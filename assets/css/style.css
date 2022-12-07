@@ -130,7 +130,7 @@ color: #fff;
 #center-about{
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    
 }
 
 hr{
@@ -161,4 +161,27 @@ hr{
 
 .right-about-heading p{          /*now im fairly sure i can add that p to the styling command one about this however just follow the toturial and play around later*/
     text-align: right; 
+}
+
+#welcome{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#cirlce-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;       /*this creates a circle however this will only work for containers that have an equal height and width dimension (look up other ways of creating circles)*/
+    margin: 0 auto;           /*centering trick while in conatiner*/
+}
+
+#circle-cover-bg{
+    background: url('../images/ethos-center-image.jpeg') no-repeat center center;
+    height: 100%;              /*image always needs a height (common mistake new devs make*/
+    border-radius: 50%;        /*made easier to center image because the image in 300px by 300px*/
 }
